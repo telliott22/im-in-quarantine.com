@@ -14,6 +14,9 @@ export default {
   name: "App",
   components: {
     Map
+  },
+  mounted() {
+    console.log("app init");
   }
 };
 </script>
