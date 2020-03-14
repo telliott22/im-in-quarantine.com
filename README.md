@@ -1,4 +1,6 @@
-# msix-pioneers
+# im-in-quarantine.com
+
+[Live website](https://im-in-quarantine.com).
 
 ## Project setup
 
