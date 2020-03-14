@@ -6,7 +6,7 @@ html {
 }
 
 body {
-  color: $white;
+  color: $black;
   font: normal 100% / 1.6 $text-font-stack;
   @include fontSize(14px);
   line-height: 1.6;
