@@ -1,0 +1,72 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass variables.
+// -----------------------------------------------------------------------------
+
+// Basic Colours
+$white: #ffffff;
+$black: #1C1B1B;
+$grey: #C4C4C4;
+$yellow: #F4F91D;
+$blue: #0A64EB;
+
+// Defaults
+$text-color: $white;
+$alt-text-color: $black;
+$base-padding: 35px;
+$bubble-shadow: rem(11px) rem(11px) rem(33px) rgba(0, 0, 0, 0.05);
+$bubble-shadow-left: rem(-11px) rem(11px) rem(33px) rgba(0, 0, 0, 0.25);
+$bubble-shadow-down: rem(0px) rem(11px) rem(33px) rgba(0, 0, 0, 0.25);
+$bubble-shadow-sm: rem(11px) rem(11px) rem(33px) rgba(0, 0, 0, 0.3);
+$bubble-shadow-sm-left: rem(-11px) rem(5px) rem(33px) rgba(0, 0, 0, 0.3);
+$shadow: rem(11px) rem(21px) rem(66px) rgba(0, 0, 0, 0.25);
+$shadow-light: rem(11px) rem(21px) rem(66px) rgba(0, 0, 0, 0.15);
+$shadow-reverse: rem(-11px) rem(21px) rem(66px) rgba(0, 0, 0, 0.25);
+
+/// Letter spacing
+$letter-spacing-text: 0em;
+$letter-spacing-heading: 1.5px;
+$letter-spacing-special: 2px;
+$letter-spacing-normal: 1px;
+
+/// Regular font family
+$text-font-stack: "gf_founders_sans_web",
+"Helvetica Neue",
+"Helvetica",
+"Arial",
+sans-serif !default;
+
+/// Header font family
+$header-font-stack: "gf_modernlight",
+"Helvetica Neue",
+"Helvetica",
+"Arial",
+sans-serif !default;
+
+$bold-font-stack: "gf_modernbold",
+"Helvetica Neue",
+"Helvetica",
+"Arial",
+sans-serif !default;
+
+$italic-font-stack: gf_founders_scriptlight;
+
+// Breakpoints
+$small: 569px;
+$medium: 769px;
+$large: 960px;
+$xlarge: 1260px;
+$xxlarge: 1441px;
+$super: 2000px;
+$xsuper: 2500px;
+
+$mobile-breakpoint: $large;
+
+/// CSS Easing Functions
+/// @type String
+$ease-in-out-circ: cubic-bezier(0.72, 0.01, 0.13, 1);
+$ease-in-out-quad: cubic-bezier(0.54, 0.01, 0.5, 1);
+$ease-in-out-sexy: cubic-bezier(0.4, 0, 0.2, 1);
+$ease-long-tail: cubic-bezier(0.03, 0.79, 0.29, 1);
+$ease-swing: cubic-bezier(0.03, 0.79, 0.29, 1);
+$bounce-in: cubic-bezier(0.83, -0.29, 0.17, 1.77);
+$ease-in-out-flash: cubic-bezier(0.3, 1.08, 0.67, 0.78);
